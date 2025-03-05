@@ -2,9 +2,9 @@
 # VARIABLES
 ##################################################################################
 variable "environment" {
-  type = string
+  type        = string
   description = "Env of all resources - optional"
-  default = "SHARM-env-dev"
+  default     = "SHARM-env-dev"
 
 }
 
