@@ -9,7 +9,7 @@ variable "environment" {
 }
 
 variable "billing_code" {
-  type = string
+  type        = string
   description = "Required - billing code tag"
 }
 
